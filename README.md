@@ -1,1 +1,1 @@
-Do not copy my sources, i guess too dumb to create pages like that ._.
+Do not copy my sources, i guess u're too dumb to create pages like that ._.
