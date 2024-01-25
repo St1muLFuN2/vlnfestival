@@ -1,4 +1,4 @@
 var loader = document.getElementById("preloader");
 window.addEventListener("load", function(){
-  loader.style.display = "flex"
+  loader.style.display = "none"
 })
