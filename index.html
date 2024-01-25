@@ -15,6 +15,8 @@
       #preloader {
         position: fixed;
         height: 100%;
+        top:0%;
+        left:0%;
         width: 100%;
         background-image: url(loading.gif);
         background-repeat: no-repeat;
@@ -53,6 +55,50 @@
         height: 100%;
         width: 100%;
         background: rgb(20, 20, 20);
+      }
+      #blockD {
+        position:absolute;
+        top:300%;
+        height:10%;
+        width:100%;
+        background:rgb(10, 10, 10);
+      }
+      #FooterText {
+        position:absolute;
+        font-size: 18px;
+        font-family:cursive;
+        color:#aaa;
+        top: 30%;
+        height:70%;
+        left:5%;
+      }
+      #footer-buttons {
+        position:absolute;
+        display: flex;
+        top:10%;
+        left: 40%;
+        height:80%;
+        width: 55%;
+        align-items: center;
+        flex-wrap: wrap; /* Allow items to wrap onto the next line */
+        gap: 8px; /* Add gap between buttons */
+      }
+      #footer-buttons a {
+        color: white;
+        text-decoration: none;
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-family: cursive;
+        font-size: 15px;
+        transition: background-color 0.3s, color 0.3s;
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+      }
+      #footer-buttons a:hover {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
       }
       #videoA {
         position:absolute;
@@ -186,7 +232,7 @@
         font-size: 15px;
         transition: background-color 0.3s, color 0.3s;
         backdrop-filter: blur(10px);
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 20px;
       }
       #navbar-buttons a:hover {
         background-color: #f2f2f2;
@@ -203,7 +249,7 @@
   </head>
   <body>
     <main>
-      <div id="preloader">
+    <div id="preloader">
         <h1>VLN FESTIVAL</h1>
       </div>
       <div id="blockA">
@@ -229,8 +275,17 @@
       </div>
       <div id="blockC">
         <div id="videoB"></div>
-        <h1 id="titleC">"Compact and easy to install"</h1>
-      <p1 id="textC">Our festival terrain inclused small portable music set for the rear seat on our transport. Takes less than 1 hour to build up/off our setup, others cannot use our setup unless they are from our staff team. Sounds up to 105dB with SONY sound system, colourfull lights & small screen with previews. High quality cinematic camera's, on land and in the air. Also particle effects that gives deeper experience intro the music!</p1>
+        <h1 id="titleC">Donate for upgrades!</h1>
+      <p1 id="textC">You can also donate on our event locations to upgrade our set, each €10 can completely change our setup! Our main goal now is to upgrade our sound system, we have an speaker that's better than the current one. But we need a good power station for that, it cost around €300. You can also suggest new changes in community platforms.</p1>
+      </div>
+      <div id="blockD">
+        <p1 id="FooterText">VLN FEST 2024 • WEBSITE</p1>
+        <div id="footer-buttons">
+          <a href="">Discord</a>
+          <a href="">Contact</a>
+          <a href="">Roblox</a>
+          <a href="">Gifts</a>
+        </div>
       </div>
     </main>
     <script src="script.js"></script>
